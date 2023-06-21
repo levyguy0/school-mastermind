@@ -114,7 +114,7 @@ fifth_c.addEventListener("click", () => {
     }
     else {
         document.getElementById("card5").remove()
-        alert("You lost! Better luck next time.")
+        alert("You lost! Better luck next time.\nThe correct answer was: " + cpu_guess.join(""))
         while (user_guess.length > 0) {
             user_guess.pop();
         }
