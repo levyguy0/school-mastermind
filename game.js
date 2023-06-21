@@ -13,7 +13,6 @@ for (let i = 0; i < 3; i++) {
     cpu_guess.push(item)
 }
 
-console.log(cpu_guess)
 
 let user_guess = []
 
@@ -21,7 +20,6 @@ first_c.addEventListener("click", () => {
     user_guess.push(document.getElementById("first").value)
     user_guess.push(document.getElementById("second").value)
     user_guess.push(document.getElementById("third").value)
-    console.log(user_guess)
     if (compare(user_guess, cpu_guess)[0] == 3) {
         alert("You win! You guessed it in " + (6 - document.getElementsByClassName("card").length) + " try.")
         while (user_guess.length > 0) {
@@ -42,7 +40,6 @@ second_c.addEventListener("click", () => {
     user_guess.push(document.getElementById("card2first").value)
     user_guess.push(document.getElementById("card2second").value)
     user_guess.push(document.getElementById("card2third").value)
-    console.log(user_guess)
     if (compare(user_guess, cpu_guess)[0] == 3) {
         alert("You win! You guessed it in " + (6 - document.getElementsByClassName("card").length) + " tries.")
         while (user_guess.length > 0) {
@@ -62,7 +59,6 @@ third_c.addEventListener("click", () => {
     user_guess.push(document.getElementById("card3first").value)
     user_guess.push(document.getElementById("card3second").value)
     user_guess.push(document.getElementById("card3third").value)
-    console.log(user_guess)
     if (compare(user_guess, cpu_guess)[0] == 3) {
         alert("You win! You guessed it in " + (6 - document.getElementsByClassName("card").length) + " tries.")
         window.location.replace("index.html");
@@ -83,7 +79,6 @@ fourth_c.addEventListener("click", () => {
     user_guess.push(document.getElementById("card4first").value)
     user_guess.push(document.getElementById("card4second").value)
     user_guess.push(document.getElementById("card4third").value)
-    console.log(user_guess)
     if (compare(user_guess, cpu_guess)[0] == 3) {
         alert("You win! You guessed it in " + (6 - document.getElementsByClassName("card").length) + " tries.")
         while (user_guess.length > 0) {
@@ -104,7 +99,6 @@ fifth_c.addEventListener("click", () => {
     user_guess.push(document.getElementById("card5first").value)
     user_guess.push(document.getElementById("card5second").value)
     user_guess.push(document.getElementById("card5third").value)
-    console.log(user_guess)
     if (compare(user_guess, cpu_guess)[0] == 3) {
         alert("You win! You guessed it in " + (6 - document.getElementsByClassName("card").length) + " tries.")
         while (user_guess.length > 0) {
