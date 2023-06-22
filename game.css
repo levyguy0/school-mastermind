@@ -71,3 +71,17 @@ body {
     background-color: var(--accent);
     color: #24273A;
 }
+
+.results-list {
+    font-family: Roboto Mono;
+    position: absolute;
+    height: 40vh;
+    top: 250px;
+    margin-left: 150px;
+    width: 20%;
+    color: #91d7e3;
+}
+
+.result {
+    color: #91d7e3;
+}

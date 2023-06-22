@@ -30,6 +30,10 @@ first_c.addEventListener("click", () => {
     else {
         document.getElementById("card1").remove()
         alert("Bulls: " + compare(user_guess, cpu_guess)[0] + "\nCows: " + compare(user_guess, cpu_guess)[1])
+        let newDiv = document.createElement("li")
+        document.getElementById("results").appendChild(newDiv)
+        newDiv.classList.add("result")
+        newDiv.textContent = `The attempt: ${user_guess.join("")} recieved ${compare(user_guess, cpu_guess)[0]} bulls and ${compare(user_guess, cpu_guess)[1]} cows.`
         while (user_guess.length > 0) {
             user_guess.pop();
         }
@@ -49,6 +53,10 @@ second_c.addEventListener("click", () => {
     else {
         document.getElementById("card2").remove()
         alert("Bulls: " + compare(user_guess, cpu_guess)[0] + "\nCows: " + compare(user_guess, cpu_guess)[1])
+        let newDiv = document.createElement("li")
+        document.getElementById("results").appendChild(newDiv)
+        newDiv.classList.add("result")
+        newDiv.textContent = `The attempt: ${user_guess.join("")} recieved ${compare(user_guess, cpu_guess)[0]} bulls and ${compare(user_guess, cpu_guess)[1]} cows.`
         while (user_guess.length > 0) {
             user_guess.pop();
         }
@@ -69,6 +77,10 @@ third_c.addEventListener("click", () => {
     else {
         document.getElementById("card3").remove()
         alert("Bulls: " + compare(user_guess, cpu_guess)[0] + "\nCows: " + compare(user_guess, cpu_guess)[1])
+        let newDiv = document.createElement("li")
+        document.getElementById("results").appendChild(newDiv)
+        newDiv.classList.add("result")
+        newDiv.textContent = `The attempt: ${user_guess.join("")} recieved ${compare(user_guess, cpu_guess)[0]} bulls and ${compare(user_guess, cpu_guess)[1]} cows.`
         while (user_guess.length > 0) {
             user_guess.pop();
         }
@@ -89,6 +101,10 @@ fourth_c.addEventListener("click", () => {
     else {
         document.getElementById("card4").remove()
         alert("Bulls: " + compare(user_guess, cpu_guess)[0] + "\nCows: " + compare(user_guess, cpu_guess)[1])
+        let newDiv = document.createElement("li")
+        document.getElementById("results").appendChild(newDiv)
+        newDiv.classList.add("result")
+        newDiv.textContent = `The attempt: ${user_guess.join("")} recieved ${compare(user_guess, cpu_guess)[0]} bulls and ${compare(user_guess, cpu_guess)[1]} cows.`
         while (user_guess.length > 0) {
             user_guess.pop();
         }
