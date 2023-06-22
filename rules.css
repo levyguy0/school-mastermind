@@ -1,0 +1,23 @@
+body {
+    background-color: #24273A;
+    color: #91d7e3;
+    font-family: Roboto Mono;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.title {
+    position: relative;
+    margin-top: 30vh;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.3rem;
+}
