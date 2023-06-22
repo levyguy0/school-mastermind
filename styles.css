@@ -15,6 +15,10 @@ html {
     transform: translateX(-50%) translateY(-50%);
 }
 
+.cancel {
+    color: var(--main);
+}
+
 body {
     background-color: #24273A;
 }
